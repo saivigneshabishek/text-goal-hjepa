@@ -10,6 +10,9 @@ multirun/
 lightning_logs/
 wandb/
 
+# datasets
+h_jepa/data/
+
 # downloaded / generated eval tasks
 h_jepa/assets/
 
