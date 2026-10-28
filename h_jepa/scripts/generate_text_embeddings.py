@@ -114,7 +114,7 @@ def main():
     val_emb  = vectors[n_train:]
 
     save_embeddings(OUTPUT_DIR/"train_text_embeddings.npz", train_records, train_emb)
-    save_embeddings(OUTPUT_DIR/"val_text_embeddings.npz", val_records, val_emb)
+    save_embeddings(OUTPUT_DIR/"eval_text_embeddings.npz", val_records, val_emb)
 
 if __name__ == "__main__":
     main()
